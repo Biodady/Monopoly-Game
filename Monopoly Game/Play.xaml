@@ -1,0 +1,22 @@
+﻿<Page x:Class="Monopoly_Game.Play"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Play" Width="800" Height="600" Loaded="Page_Loaded" Focusable="True" KeyDown="Page_KeyDown">
+
+    <Grid Width="800" Height="600" Background="White" Margin="0,0,-500,-300" VerticalAlignment="Top" HorizontalAlignment="Left">
+        <Canvas HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="800">
+            <Image Height="600" Width="800" Source="Board game/Game board.jpg" Stretch="Fill"/>
+            <Image x:Name="player" Height="79" Canvas.Left="683" Canvas.Top="477" Width="72" Source="Board game/player1.png"/>
+            <Button x:Name="btnRoll" Content="Dice" Height="69" Canvas.Left="288" Canvas.Top="394" Width="213" Click="btnRoll_Click"/>
+            <TextBox x:Name="resultShow" Height="66" Canvas.Left="372" TextWrapping="Wrap" Text="0" Canvas.Top="304" Width="49" OpacityMask="#FFE80C0C" Background="Black" Foreground="White" SelectionBrush="#FF70B0E2" FontSize="48" FontWeight="Bold" TextDecorations="{x:Null}" TextAlignment="Center"/>
+            <TextBox x:Name="checkStart" Height="47" Canvas.Left="192" TextWrapping="Wrap" Text="0" Canvas.Top="323" Width="106" FontSize="24"/>
+            <TextBox x:Name="timeClick" Height="33" Canvas.Left="475" TextWrapping="Wrap" Text="0" Canvas.Top="304" Width="107"/>
+            <TextBox x:Name="current" Height="28" Canvas.Left="475" TextWrapping="Wrap" Text="0" Canvas.Top="342" Width="107"/>
+        </Canvas>
+
+    </Grid>
+</Page>
