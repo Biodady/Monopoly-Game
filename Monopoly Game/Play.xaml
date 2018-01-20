@@ -16,6 +16,7 @@
             <TextBox x:Name="checkStart" Height="47" Canvas.Left="192" TextWrapping="Wrap" Text="0" Canvas.Top="323" Width="106" FontSize="24"/>
             <TextBox x:Name="timeClick" Height="33" Canvas.Left="475" TextWrapping="Wrap" Text="0" Canvas.Top="304" Width="107"/>
             <TextBox x:Name="current" Height="28" Canvas.Left="475" TextWrapping="Wrap" Text="0" Canvas.Top="342" Width="107"/>
+            <TextBox x:Name="timeClick2" Height="33" Canvas.Left="582" TextWrapping="Wrap" Text="0" Canvas.Top="304" Width="84"/>
         </Canvas>
 
     </Grid>
